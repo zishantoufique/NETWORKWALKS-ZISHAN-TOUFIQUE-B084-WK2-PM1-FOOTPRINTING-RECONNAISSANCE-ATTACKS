@@ -209,7 +209,7 @@ For Zenmap scanning, I used scanme.nmap.org which is the official test target pr
 Profile Used: Intense Scan
 Command: nmap -T4 -A -v scanme.nmap.org
 
-![Zenmap Intense Scan](screenshots/08-zenmap-intense.png)
+<img width="1532" height="814" alt="zenmap intense scan" src="https://github.com/user-attachments/assets/f0913689-5888-4103-be73-4bac16cd39f8" />
 
 Findings:
 - Target: scanme.nmap.org (45.33.32.156) is live and responding
@@ -218,42 +218,24 @@ Findings:
 - Service and version detection completed
 - Traceroute information collected
 
-#### 8.1 Ports / Hosts View
 
-![Zenmap Ports View](screenshots/09-zenmap-ports.png)
+#### 8.1 Topology View
 
-Findings:
-- Multiple open ports identified (example: 22 SSH, 80 HTTP, 110, 587, 2222, 3306 and others)
-- Each open port shows its service name and version
-- Ports tab in Zenmap gives a clear list of all open ports in one view
-- This view helps to quickly identify which services are exposed
+<img width="1535" height="812" alt="zenmap topology" src="https://github.com/user-attachments/assets/0b3abcd8-c2af-4fc5-add1-35b4ac20f07d" />
 
-#### 8.2 Topology View
-
-![Zenmap Topology](screenshots/10-zenmap-topology.png)
 
 Findings:
 - Topology view shows the network path from localhost (attacker machine) to the target host
 - Target host is shown as a node at the end of the route
 - Topology helps to understand how many hops are between attacker and target
 
-#### 8.3 Hosts Viewer
-
-![Zenmap Hosts Viewer](screenshots/11-zenmap-hosts-viewer.png)
-
-Findings:
-- Hosts Viewer shows OS details - OS match: Linux with high accuracy
-- Hosts Viewer also shows open ports count and host details in one place
-
-Summary: Zenmap made the Nmap results easier to understand visually. Intense Scan gave ports, services, OS and traceroute in one scan, while Ports/Hosts, Topology and Hosts Viewer views helped to analyze the same results from different angles.
-
----
 
 ## ⚠️ 5. ERRORS FACED & SOLUTIONS
 
 During this task I faced errors. The error screenshots are saved in the errors folder in this repo.
 
-![Error Screenshot](screenshots/errors/error_1_whatweb_no_internet.png)
+<img width="1535" height="816" alt="whatweb error" src="https://github.com/user-attachments/assets/353aa923-ca75-462b-bf5c-e5a35c1ef75e" />
+
 
 | Error | Cause | Solution |
 | --- | --- | --- |
@@ -325,23 +307,6 @@ Finally, these activities reinforced the importance of accurate documentation, r
 
 ---
 
-## 📸 9. EVIDENCES COLLECTED
-
-- screenshots/01-whois.png
-- screenshots/02-whatweb.png
-- screenshots/03-nslookup.png
-- screenshots/04-curl.png
-- screenshots/05-wafw00f.png
-- screenshots/06-dnsrecon.png
-- screenshots/07-nmap.png
-- screenshots/08-zenmap-intense.png
-- screenshots/09-zenmap-ports.png
-- screenshots/10-zenmap-topology.png
-- screenshots/11-zenmap-hosts-viewer.png
-- screenshots/errors/error_1_whatweb_no_internet.png
-
----
-
 ## 🔗 10. SOURCES & REFERENCES
 
 - Target Website: https://networkwalks.com
@@ -361,7 +326,7 @@ Finally, these activities reinforced the importance of accurate documentation, r
 
 ## 👩‍💻 Author
 
-Naduni Umeda
+Zishan Toufique
 - Cybersecurity Professional - B084, Networkwalks
 - Program: Cybersecurity Internship - Networkwalks
 - Week: 02
