@@ -229,6 +229,30 @@ Findings:
 - Target host is shown as a node at the end of the route
 - Topology helps to understand how many hops are between attacker and target
 
+#### 8.2 Ping Scan
+
+A Ping Scan was performed using Zenmap to discover live hosts on the network. The scan helped identify active devices and their IP addresses without scanning ports.
+
+<img width="1535" height="817" alt="zenmap nmap" src="https://github.com/user-attachments/assets/8a48ca34-cfdb-46c0-892a-069f8486c005" />
+
+### 🔹 Step 9. theHarvester
+
+Used to discover publicly available email addresses and subdomains.
+
+<img width="1530" height="818" alt="theharvestor" src="https://github.com/user-attachments/assets/aa4383ff-be81-4132-ad88-156325102fff" />
+
+
+<img width="1534" height="817" alt="theharvestor 2" src="https://github.com/user-attachments/assets/48822cd2-76c0-4fa7-baf5-009c61ab8d15" />
+
+
+### 🔹 Step 10. Maltego
+
+Used to visualize domain-related entities and their relationships. The graph identified an associated email address.
+
+<img width="1535" height="814" alt="maltego" src="https://github.com/user-attachments/assets/80d6d0cc-eaa8-4e3e-b576-a34c1c9479fb" />
+
+
+
 
 ## ⚠️ 5. ERRORS FACED & SOLUTIONS
 
@@ -332,23 +356,5 @@ Zishan Toufique
 - Week: 02
 - Topic: Footprinting, Network Scanning and Vulnerability Assessment / Analysis
 - Repository: GitHub
-
-## 📁 Project Structure
-NETWORKWALKS-NADUNI-UMEDA-B084-WK2-PM1-FOOTPRINTING-RECONNAISSANCE-ATTACKS/
-├── README.md
-├── screenshots/
-│   ├── 01-whois.png
-│   ├── 02-whatweb.png
-│   ├── 03-nslookup.png
-│   ├── 04-curl.png
-│   ├── 05-wafw00f.png
-│   ├── 06-dnsrecon.png
-│   ├── 07-nmap.png
-│   ├── 08-zenmap-intense.png
-│   ├── 09-zenmap-ports.png
-│   ├── 10-zenmap-topology.png
-│   ├── 11-zenmap-hosts-viewer.png
-│   └── errors/
-│       └── error_1_whatweb_no_internet.png
 
 -End-
