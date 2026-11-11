@@ -113,7 +113,8 @@ Findings:
 
 Commands: whatweb networkwalks.com / whatweb -v networkwalks.com
 
-![WhatWeb Scan](screenshots/02-whatweb.png)
+<img width="1535" height="814" alt="whatweb" src="https://github.com/user-attachments/assets/37218ce0-b45d-44b4-ab87-252d6c574396" />
+
 
 Findings:
 - Website is built on WordPress 7.0.4
@@ -258,7 +259,8 @@ Used to visualize domain-related entities and their relationships. The graph ide
 
 During this task I faced errors. The error screenshots are saved in the errors folder in this repo.
 
-<img width="1535" height="816" alt="whatweb error" src="https://github.com/user-attachments/assets/353aa923-ca75-462b-bf5c-e5a35c1ef75e" />
+<img width="1533" height="815" alt="whatweb error" src="https://github.com/user-attachments/assets/d18b4e51-321a-4b8a-871f-498abdc76fc7" />
+
 
 
 | Error | Cause | Solution |
