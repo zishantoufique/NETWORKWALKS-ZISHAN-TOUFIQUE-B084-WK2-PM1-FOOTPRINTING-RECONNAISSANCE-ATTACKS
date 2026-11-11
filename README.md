@@ -70,3 +70,110 @@ For each activity, I documented:
 | Zenmap | Graphical interface for Nmap used to visualize scan results, network topology and host information. |
 
 ---
+
+### 💻 Lab Configuration
+
+| Component | Configuration |
+| --- | --- |
+| Host OS | Windows 11 |
+| Attacker Machine | Kali Linux (VM) |
+| Target 1 | networkwalks.com |
+| Target 1 IP | [REDACTED - Hidden for Privacy] |
+| Target 2 (Zenmap) | scanme.nmap.org |
+| Target 2 IP | 45.33.32.156 |
+| Tools Used | whois, whatweb, nslookup, curl, wafw00f, dnsrecon, nmap, Zenmap |
+
+---
+
+## 🎯 4. ACTIVITIES PERFORMED
+
+### 4.1. Footprinting with multiple Kali tools
+
+As part of the reconnaissance phase, I analyzed the networkwalks.com domain using seven different tools available in Kali Linux: WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, DNSRecon and Nmap.
+
+Each tool provided a different perspective of the target, allowing me to gradually build a broader picture of its domain, DNS, and web infrastructure.
+
+---
+
+### 🔹 Step 1. WHOIS Lookup
+
+Command: whois networkwalks.com
+
+![WHOIS Lookup](<img width="1535" height="817" alt="whois" src="https://github.com/user-attachments/assets/c26e6cc3-5b89-4ed1-bac1-2c082ffcaaff" />)
+
+Findings:
+- Domain is registered and publicly available
+- Registrar, creation date, expiry date and name servers were identified
+- Registrant information is privacy-protected
+- Hosting provider identified as HostGator
+
+---
+
+### 🔹 Step 2. WhatWeb - Technology Fingerprinting
+
+Commands: whatweb networkwalks.com / whatweb -v networkwalks.com
+
+![WhatWeb Scan](screenshots/02-whatweb.png)
+
+Findings:
+- Website is built on WordPress 7.0.4
+- Plugin identified: WP Download Manager 3.3.58
+- Server and other web technologies were fingerprinted
+- This information helps to identify outdated / vulnerable versions
+
+---
+
+### 🔹 Step 3. Nslookup - DNS Resolution
+
+Command: nslookup networkwalks.com
+
+![Nslookup Result](screenshots/03-nslookup.png)
+
+Findings:
+- Domain resolves to IP address: [REDACTED]
+- DNS server responded successfully
+- Confirmed the target is live and reachable
+
+---
+
+### 🔹 Step 4. Curl - HTTP Header Inspection
+
+Command: curl -I https://networkwalks.com
+
+![Curl Headers](screenshots/04-curl.png)
+
+Findings:
+- HTTP response code: 200 OK
+- Server header information collected
+- Content-Type, Date and other security headers observed
+- Server is running and responding to HTTPS requests
+
+---
+
+### 🔹 Step 5. Wafw00f - WAF Detection
+
+Commands: wafw00f networkwalks.com / wafw00f https://networkwalks.com
+
+![Wafw00f Result](screenshots/05-wafw00f.png)
+
+Findings:
+- WAF Detected: ModSecurity (SpiderLabs)
+- The site is protected by a Web Application Firewall
+- This means direct attacks will be filtered / blocked
+
+---
+
+### 🔹 Step 6. Dnsrecon - DNS Enumeration
+
+Command: dnsrecon -d networkwalks.com
+
+![Dnsrecon Result](screenshots/06-dnsrecon.png)
+
+Findings:
+- DNS enumeration performed successfully
+- Name servers, mail servers (MX) and other DNS records identified
+- DNS Server: Bind 9.16.23
+- SPF record found
+- cPanel related records found
+
+---
