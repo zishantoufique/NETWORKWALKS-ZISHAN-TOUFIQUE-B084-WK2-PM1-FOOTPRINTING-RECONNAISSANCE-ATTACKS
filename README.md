@@ -187,7 +187,8 @@ Findings:
 
 Commands: nmap -sV networkwalks.com / nmap -T4 -A -v networkwalks.com
 
-![Nmap Scan](screenshots/07-nmap.png)
+<img width="1535" height="819" alt="nmap -sv" src="https://github.com/user-attachments/assets/c04c2104-af0c-4a4c-8e03-e92129eed93c" />
+
 
 Findings:
 - Target is live and responding to scan
