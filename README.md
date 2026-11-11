@@ -236,6 +236,10 @@ A Ping Scan was performed using Zenmap to discover live hosts on the network. Th
 
 <img width="1535" height="817" alt="zenmap nmap" src="https://github.com/user-attachments/assets/8a48ca34-cfdb-46c0-892a-069f8486c005" />
 
+#### 8.3 MAC of Local IP
+
+<img width="1535" height="817" alt="zenmap MAC" src="https://github.com/user-attachments/assets/b05b1824-52da-4066-910a-07b7d068db1e" />
+
 ### 🔹 Step 9. theHarvester
 
 Used to discover publicly available email addresses and subdomains.
