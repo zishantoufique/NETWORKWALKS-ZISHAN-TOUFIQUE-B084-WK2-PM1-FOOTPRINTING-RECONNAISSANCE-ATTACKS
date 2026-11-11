@@ -99,7 +99,7 @@ Each tool provided a different perspective of the target, allowing me to gradual
 
 Command: whois networkwalks.com
 
-![WHOIS Lookup](<img width="1535" height="817" alt="whois" src="https://github.com/user-attachments/assets/c26e6cc3-5b89-4ed1-bac1-2c082ffcaaff" />)
+<img width="1535" height="817" alt="whois" src="https://github.com/user-attachments/assets/920a1594-07c4-459e-a568-a852b6c1d285" />
 
 Findings:
 - Domain is registered and publicly available
@@ -127,7 +127,8 @@ Findings:
 
 Command: nslookup networkwalks.com
 
-![Nslookup Result](screenshots/03-nslookup.png)
+<img width="1531" height="815" alt="nslookup" src="https://github.com/user-attachments/assets/28535777-5272-4f15-8e96-717f41b913dd" />
+
 
 Findings:
 - Domain resolves to IP address: [REDACTED]
@@ -140,7 +141,8 @@ Findings:
 
 Command: curl -I https://networkwalks.com
 
-![Curl Headers](screenshots/04-curl.png)
+<img width="1534" height="812" alt="curl" src="https://github.com/user-attachments/assets/94999181-c614-48a2-8c78-b48684cc6a8e" />
+
 
 Findings:
 - HTTP response code: 200 OK
@@ -154,7 +156,8 @@ Findings:
 
 Commands: wafw00f networkwalks.com / wafw00f https://networkwalks.com
 
-![Wafw00f Result](screenshots/05-wafw00f.png)
+<img width="1535" height="819" alt="wafw00f" src="https://github.com/user-attachments/assets/d8587743-657b-4ac8-97f1-b04390a8812f" />
+
 
 Findings:
 - WAF Detected: ModSecurity (SpiderLabs)
@@ -167,7 +170,8 @@ Findings:
 
 Command: dnsrecon -d networkwalks.com
 
-![Dnsrecon Result](screenshots/06-dnsrecon.png)
+<img width="1535" height="817" alt="dnsrecon" src="https://github.com/user-attachments/assets/41d17a32-97dc-45b3-ab68-acac4f817e13" />
+
 
 Findings:
 - DNS enumeration performed successfully
