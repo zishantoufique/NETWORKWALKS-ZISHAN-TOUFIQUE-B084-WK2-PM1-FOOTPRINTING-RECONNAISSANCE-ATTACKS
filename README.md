@@ -1,4 +1,3 @@
-
 # 🔍 PENETRATION TESTING REPORT
 
 ## 🕵️ FOOTPRINTING, NETWORK SCANNING AND VULNERABILITY ASSESSMENT / ANALYSIS
@@ -222,7 +221,8 @@ Findings:
 
 #### 8.1 Topology View
 
-<img width="1535" height="812" alt="zenmap topology" src="https://github.com/user-attachments/assets/0b3abcd8-c2af-4fc5-add1-35b4ac20f07d" />
+<img width="1535" height="812" alt="zenmap_topology_blurred" src="https://github.com/user-attachments/assets/02fd4cd0-2548-4c9b-b02f-044cd8f9b471" />
+
 
 
 Findings:
@@ -234,11 +234,12 @@ Findings:
 
 A Ping Scan was performed using Zenmap to discover live hosts on the network. The scan helped identify active devices and their IP addresses without scanning ports.
 
-<img width="1535" height="817" alt="zenmap nmap" src="https://github.com/user-attachments/assets/8a48ca34-cfdb-46c0-892a-069f8486c005" />
+<img width="1535" height="817" alt="zenmap_nmap_blurred" src="https://github.com/user-attachments/assets/4a4ef1ec-7a9b-416d-8722-8c4d3e6aa7ae" />
 
 #### 8.3 MAC of Local IP
 
-<img width="1535" height="817" alt="zenmap MAC" src="https://github.com/user-attachments/assets/b05b1824-52da-4066-910a-07b7d068db1e" />
+<img width="1535" height="819" alt="ipconfig_blurred" src="https://github.com/user-attachments/assets/d54c71cd-2031-467c-a539-e4442aec2046" />
+
 
 ### 🔹 Step 9. theHarvester
 
