@@ -337,6 +337,36 @@ Finally, these activities reinforced the importance of accurate documentation, r
 - 7. Documentation - Documenting each tool, command, and finding clearly is a core part of professional reconnaissance reporting
 
 ---
+## 📸 9. EVIDENCES COLLECTED
+
+### 🔍 Footprinting – Kali Linux Tools
+- whois.png
+- whatweb.png
+- nslookup.png
+- curl.png
+- wafw00f.png
+- dnsrecon.png
+- ipconfig.png
+
+### 🌐 Maltego – OSINT & Link Analysis
+- maltego account.png
+- maltego.png
+
+### 📧 theHarvester – Information Gathering
+- theharvestor.png
+- theharvestor 2.png
+
+### 🖥️ Network Scanning – Nmap & Zenmap
+- nmap -sv.png
+- zenmap downloaded.png
+- zenmap intense scan.png
+- zenmap_nmap.png
+- zenmap_topology.png
+
+### ⚠️ Errors & Troubleshooting
+- whatweb error.png
+
+---
 
 ## 🔗 10. SOURCES & REFERENCES
 
