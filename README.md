@@ -7,10 +7,10 @@
 | 👨‍💻 Cybersecurity Professional | Zishan Toufique |
 | 🎓 Program / Batch | B084 - Networkwalks |
 | 📅 Date | 08 November 2026 |
-| 📚 Modules Completed | W2-PM1 Footprinting with Multiple Kali Linux Tools + Zenmap Scanning |
+| 📚 Modules Completed | W2-PM1 – Multiple Kali Tools (Footprinting)<br>W2-PM3 – theHarvester (Information Gathering)<br>W2-PM4 – Maltego (OSINT & Link Analysis)<br>W2-PM5 – Zenmap Scanning |
 | 🎯 Client / Target | Networkwalks (`networkwalks.com`) / Authorized VirtualBox Lab Network |
 | ✅ Permission secured from client? | Yes, for the authorized assessment scope |
-| 🔄 Phases covered | Phase 1. Reconnaissance and Footprinting / Phase 2. Scanning and Network Discovery / Phase 3. Vulnerability Assessment and Analysis |
+| 🔄 Phases Covered | Phase 1 – Reconnaissance & Footprinting (W2-PM1)<br>Phase 2 – Information Gathering using theHarvester (W2-PM3)<br>Phase 3 – OSINT & Link Analysis using Maltego (W2-PM4)<br>Phase 4 – Network Scanning & Discovery using Zenmap (W2-PM5) |
 
 ---
 
