@@ -5,8 +5,8 @@
 | **Field** | **Information** |
 |---|---|
 | 👨‍💻 Cybersecurity Professional | Zishan Toufique |
-| 🎓 Program / Batch | B084 - Networkwalks |
-| 📅 Date | 08 November 2026 |
+| 🎓 Program / Batch | B084N - Networkwalks |
+| 📅 Date | 13 November 2026 |
 | 📚 Modules Completed | W2-PM1 – Multiple Kali Tools (Footprinting)<br>W2-PM3 – theHarvester (Information Gathering)<br>W2-PM4 – Maltego (OSINT & Link Analysis)<br>W2-PM5 – Zenmap Scanning |
 | 🎯 Client / Target | Networkwalks (`networkwalks.com`) / Authorized VirtualBox Lab Network |
 | ✅ Permission secured from client? | Yes, for the authorized assessment scope |
