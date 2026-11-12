@@ -388,7 +388,7 @@ Finally, these activities reinforced the importance of accurate documentation, r
 ## 👩‍💻 Author
 
 Zishan Toufique
-- Cybersecurity Professional - B084, Networkwalks
+- Cybersecurity Professional - B084N, Networkwalks
 - Program: Cybersecurity Internship - Networkwalks
 - Week: 02
 - Topic: Footprinting, Network Scanning and Vulnerability Assessment / Analysis
