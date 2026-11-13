@@ -362,6 +362,7 @@ Finally, these activities reinforced the importance of accurate documentation, r
 - zenmap intense scan.png
 - zenmap_nmap.png
 - zenmap_topology.png
+- zenmap certificate.png
 
 ### ⚠️ Errors & Troubleshooting
 - whatweb error.png
